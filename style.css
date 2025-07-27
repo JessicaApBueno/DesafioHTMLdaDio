@@ -1,0 +1,235 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+    }
+ 
+ body {
+            font-family: 'Inter', sans-serif; /* Usando a fonte Inter */
+            line-height: 1.6; /* Altura da linha para melhor legibilidade */
+            margin: 20px; /* Margem externa para o corpo */
+            background-color: #A63C4F; /* Cor de fundo suave */
+            color: #0A0C0D; /* Cor do texto principal */
+            display: flex; /* Usando flexbox para centralizar o conteúdo */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: flex-start; /* Alinha ao topo verticalmente */
+            min-height: 100vh; /* Altura mínima de 100% da viewport */
+            padding: 20px; /* Preenchimento geral */
+        }
+        .header {
+            display: flex;
+            font-family: 'Inter', sans-serif;
+            color: #0A0C0D;
+            justify-content: center; 
+            align-items: flex-start; 
+
+        }
+
+        .menu {
+            background-color: #DFE5F2;
+            border-radius: 7%;
+            font-family: 'Inter', sans-serif;
+            color: #0A0C0D;
+            justify-content: center; 
+            align-items: flex-start; 
+            padding: 25px; 
+
+        }
+
+        .titulo {
+            font-family: 'Inter', sans-serif;
+            color: #0A0C0D;
+            justify-content: center; 
+            align-items: flex-start;
+        }
+
+        .item {
+            font-family: 'Inter', sans-serif;
+            color: #0A0C0D;
+            justify-content: center; 
+            align-items: flex-start;
+        }
+
+       .link {
+            text-decoration: none;
+            color: #0A0C0D;
+            font-family: 'Inter', sans-serif;
+            font-size: larger;
+            justify-content: center; 
+            align-items: flex-start;
+        }
+
+        .topo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #A63C4F;
+           
+            
+        }
+
+        .footer {
+
+        }
+        /* Estilos para o contêiner principal do conteúdo */
+        .container {
+            max-width: 900px; /* Largura máxima do contêiner */
+            width: 100%; /* Ocupa 100% da largura disponível até o max-width */
+            background: #769DA6; /* Fundo branco para o conteúdo */
+            padding: 30px; /* Preenchimento interno */
+            border-radius: 12px; /* Cantos arredondados */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            box-sizing: border-box; /* Inclui padding e border no width/height */
+        }
+
+        /* Estilos para os títulos (h1 a h6) */
+        h1, h2, h3, h4, h5, h6 {
+            color: #0A0C0D; /* Cor escura para os títulos */
+            margin-top: 25px; /* Margem superior */
+            margin-bottom: 15px; /* Margem inferior */
+            border-bottom: 1px solid #eee; /* Linha inferior para separar */
+            padding-bottom: 5px; /* Preenchimento inferior */
+        }
+
+        /* Estilos para o separador horizontal */
+        hr {
+            border: 0; /* Remove a borda padrão */
+            height: 1px; /* Altura da linha */
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); /* Gradiente para a linha */
+            margin: 30px 0; /* Margem superior e inferior */
+        }
+
+        /* Estilos para bloco de citação */
+        blockquote {
+            background: #F2A099; /* Cor de fundo clara */
+            border-left: 6px solid #F28D8D; /* Borda esquerda azul */
+            margin: 1.5em 10px; /* Margem externa */
+            padding: 0.8em 15px; /* Preenchimento interno */
+            border-radius: 6px; /* Cantos arredondados */
+        }
+
+        blockquote p {
+            display: inline; /* Faz com que o parágrafo dentro do blockquote seja inline */
+        }
+
+        /* Estilos para a tag mark */
+        mark {
+            background-color: #ffe082; /* Amarelo mais suave */
+            padding: 2px 5px; /* Preenchimento */
+            border-radius: 4px; /* Cantos arredondados */
+        }
+
+        /* Estilos para a tag small */
+        small {
+            font-size: 0.85em; /* Tamanho da fonte ligeiramente menor */
+            color: #777; /* Cor de texto mais clara */
+        }
+
+        /* Estilos para a tag i (itálico) */
+        i {
+            font-style: italic; /* Itálico */
+        }
+
+        /* Estilos para a tag u (sublinhado) */
+        u {
+            text-decoration: underline; /* Sublinhado */
+        }
+
+        /* Estilos para a tag strong (negrito) */
+        strong {
+            font-weight: bold; /* Negrito */
+        }
+
+        /* Estilos para a tag del (riscado) */
+        del {
+            text-decoration: line-through; /* Linha através do texto */
+            color: #F28D8D; /* Cor mais clara para texto excluído */
+        }
+
+        /* Estilos para links */
+        a {
+            color: #400135; /* Cor do link */
+            text-decoration: none; /* Remove o sublinhado padrão */
+            transition: color 0.3s ease; /* Transição suave na cor */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Sublinha ao passar o mouse */
+            color: #F28D8D; /* Cor mais escura ao passar o mouse */
+        }
+
+        /* Estilos para abreviações */
+        abbr {
+            border-bottom: 1px dotted #000; /* Borda pontilhada inferior */
+            cursor: help; /* Cursor de ajuda ao passar o mouse */
+        }
+
+        /* Estilos para listas */
+        ul, ol {
+            margin-left: 25px; /* Margem à esquerda para indentação */
+            margin-bottom: 15px; /* Margem inferior */
+        }
+
+        li {
+            margin-bottom: 8px; /* Espaçamento entre itens da lista */
+        }
+
+        /* Estilos para tabelas */
+        table {
+            width: 100%; /* Ocupa 100% da largura do contêiner */
+            border-collapse: collapse; /* Colapsa as bordas da tabela */
+            margin-top: 20px; /* Margem superior */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Sombra suave */
+            border-radius: 8px; /* Cantos arredondados */
+            overflow: hidden; /* Garante que os cantos arredondados sejam visíveis */
+        }
+
+        th, td {
+            border: 1px solid #0D0D0D; /* Borda para células */
+            padding: 12px 15px; /* Preenchimento interno das células */
+            text-align: left; /* Alinhamento do texto à esquerda */
+        }
+
+        th {
+            background-color: #BF625A; /* Cor de fundo para cabeçalhos */
+            color: #0D0D0D; /* Cor do texto para cabeçalhos */
+            font-weight: bold; /* Negrito */
+        }
+
+        tr:nth-child(even) {
+            background-color: #F2A099; /* Cor de fundo para linhas pares */
+        }
+
+        tr:hover {
+            background-color: #8C443E; /* Cor de fundo ao passar o mouse */
+        }
+
+        /* Estilos para o rodapé */
+        .footer {
+            background-color: #DFE5F2;
+            text-align: center; /* Centraliza o texto */
+            margin-top: 40px; /* Margem superior */
+            padding-top: 20px; /* Preenchimento superior */
+            border-top: 1px solid #eee; /* Linha superior para separar */
+            color: #F24C3D; /* Cor do texto */
+            font-size: 0.9em; /* Tamanho da fonte */
+           
+        }
+        small {
+            font-size: 0.85em; /* Tamanho da fonte ligeiramente menor */
+            color: #0A0C0D; /* Cor de texto mais clara */
+        
+        }
+        /* Estilos para a tag code */
+        code {
+            background-color: #e0e0e0; /* Fundo cinza claro */
+            padding: 2px 5px; /* Preenchimento */
+            border-radius: 4px; /* Cantos arredondados */
+            font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada */
+            font-size: 0.9em; /* Tamanho da fonte */
+        }
+        font:hover {
+            color: #F24C3D;
+            
+        }
